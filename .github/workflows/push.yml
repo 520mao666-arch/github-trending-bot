@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run push script
-        run: bash ./push.sh
+        run: bash ./push.sh 
