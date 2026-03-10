@@ -1,4 +1,4 @@
-name: GitHub 趋势每日推送
+name: GitHub 趋势每日 推送
 
 on:
   schedule:
@@ -15,3 +15,6 @@ jobs:
 
       - name: Run push script
         run: bash ./push.sh 
+
+
+    
